@@ -1,0 +1,161 @@
+h2 {
+  font-size: 26px;
+  background-color: #403F3F;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 450px) {
+  .wrapper {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+header {
+  background-color: #2F4F4F;
+  text-align: center;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+}
+header h1 {
+  font-size: 30px;
+}
+
+.skillsBox {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.skillsBox h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.skillsBox .skillItem {
+  width: 100%;
+  background-color: #403F3F;
+  padding: 1%;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 450px) {
+  .skillsBox .skillItem {
+    width: 49%;
+    margin-bottom: 0;
+  }
+}
+.skillsBox .skillItem ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skillsBox .skillItem ul li {
+  width: 40%;
+}
+.skillsBox .shikakuItem {
+  width: 100%;
+  background-color: #403F3F;
+  padding: 1%;
+}
+@media screen and (min-width: 450px) {
+  .skillsBox .shikakuItem {
+    width: 49%;
+  }
+}
+
+.worksBox {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.worksBox .worksItem {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-items: center;
+  border: 1px solid #403F3F;
+}
+.worksBox .worksItem .worksItemDl {
+  width: 100%;
+  background-color: #403F3F;
+  color: white;
+  padding: 2%;
+}
+@media screen and (min-width: 450px) {
+  .worksBox .worksItem .worksItemDl {
+    width: 50%;
+  }
+}
+.worksBox .worksItem .worksItemDl dl {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 450px) {
+  .worksBox .worksItem .worksItemDl dl {
+    margin-bottom: 0;
+  }
+}
+.worksBox .worksItem .worksItemDl dl dt {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (min-width: 450px) {
+  .worksBox .worksItem .worksItemDl dl dt {
+    text-align: left;
+  }
+}
+.worksBox .worksItem .worksItemDl dl dd {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.worksBox .worksItem .worksItemImg {
+  width: 100%;
+  padding: 1%;
+}
+@media screen and (min-width: 450px) {
+  .worksBox .worksItem .worksItemImg {
+    width: 50%;
+  }
+}
+.worksBox .worksItem .worksItemImg img {
+  max-width: 320px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+footer {
+  background-color: #2F4F4F;
+  text-align: center;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+}
+footer small {
+  font-size: 12px;
+}/*# sourceMappingURL=base.css.map */
