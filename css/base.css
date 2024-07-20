@@ -36,9 +36,17 @@ header {
   color: white;
   height: 50px;
   line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 header h1 {
   font-size: 30px;
+}
+header ul {
+  list-style-type: none;
 }
 
 .skillsBox {
@@ -122,14 +130,16 @@ header h1 {
   font-weight: bold;
   text-align: center;
 }
-@media screen and (min-width: 450px) {
-  .worksBox .worksItem .worksItemDl dl dt {
-    text-align: left;
-  }
-}
 .worksBox .worksItem .worksItemDl dl dd {
   margin-top: 10px;
   font-size: 18px;
+  text-align: center;
+}
+.worksBox .worksItem .worksItemDl dl dd span {
+  font-weight: bold;
+}
+.worksBox .worksItem .worksItemDl dl dd a {
+  font-weight: bold;
 }
 .worksBox .worksItem .worksItemImg {
   width: 100%;
