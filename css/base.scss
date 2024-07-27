@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+//----------全体に関する部分ここから----------
 h2{
     font-size:26px;
     background-color:#403F3F;
@@ -32,6 +33,7 @@ a {
     }
 }
 
+//----------headerここから----------
 header {
     background-color:#2F4F4F;
     text-align:center;
@@ -51,6 +53,7 @@ header {
     }
 }
 
+//----------skillsここから----------
 .skillsBox {
     display:flex;
     flex-wrap:wrap;
@@ -67,7 +70,7 @@ header {
     .skillItem {
         width:100%;
         background-color:#403F3F;
-        padding:1%;
+        padding:2%;
         margin-bottom:20px;
         @media screen and (min-width:450px) {
             width:49%;
@@ -85,13 +88,14 @@ header {
     .shikakuItem {
         width:100%;
         background-color:#403F3F;
-        padding:1%;
+        padding:2%;
         @media screen and (min-width:450px) {
             width:49%;
         }
     }
 }
 
+//----------worksここから----------
 .worksBox {
     padding-left:20px;
     padding-right:20px;
@@ -121,27 +125,36 @@ header {
                     text-align:center;
                 }
                 dd {
-                    margin-top:10px;
                     font-size:18px;
                     text-align:center;
-                    span {
-                        font-weight:bold;
+                    &:nth-of-type(1) {
+                        margin-top:10px;
                     }
-                    a {
-                        font-weight:bold;
-                    }
+                }
+            }
+            .workslinkbox {
+                display:flex;
+                justify-content: space-around;
+                width:70%;
+                margin:10px auto 0 auto;
+                list-style-type:none;
+                font-weight:bold;
+                li {
+                    margin-left:0;
                 }
             }
         }
         .worksItemImg {
             width:100%;
             padding:1%;
+            height:150px;
             @media screen and (min-width:450px) {
                 width:50%;
             }
             img {
                 max-width:320px;
                 width:100%;
+                height:100%;
                 display:block;
                 margin:0 auto;
                 object-fit:contain;
@@ -150,6 +163,7 @@ header {
     }
 }
 
+//----------footerここから----------
 footer {
     background-color:#2F4F4F;
     text-align:center;
