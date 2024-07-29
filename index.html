@@ -1,100 +1,231 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="css/base.css">
-    <title>Yskd Blog</title>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JWQVKQDXHL"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'G-JWQVKQDXHL');
-    </script>
-    <!-- Google tag (gtag.js) -->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Yskd Blog</title>
+
+  <!-- Favicons -->
+  <!-- <link href="" rel="icon"> -->
+  <!-- <link href="" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Lato:400,300,700,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Amoeba
+  * Template URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <!-- fontawesome読込 -->
+  <script src="https://kit.fontawesome.com/674827956f.js" crossorigin="anonymous"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JWQVKQDXHL"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JWQVKQDXHL');
+  </script>
+  <!-- Google tag (gtag.js) -->
 </head>
+
 <body>
-    <header class="wrapper">
-        <h1>Yskd Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="https://github.com/oribe8" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="wrapper">
-        <section>
-            <h2>Skills</h2>
-            <div class="skillsBox">
-                <div class="skillItem">
-                    <h3>スキル</h3>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>JavaScript</li>
-                        <li>CSS3</li>
-                        <li>WordPress</li>
-                        <li>SCSS</li>
-                        <li>PHP</li>
-                    </ul>
-                </div>
-                <div class="shikakuItem">
-                    <h3>資格</h3>
-                    <ul>
-                        <li>基本情報技術者試験</li>
-                        <li>情報セキュリティマネジメント試験</li>
-                        <li>Webクリエイター能力認定試験 エキスパート</li>
-                    </ul>
-                </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html">Yskd Blog</a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="#about">About Me</a></li>
+          <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+    </div>
+  </header>
+  <!-- End #header -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+        <table class="table table-bordered table-striped">
+          <tr>
+            <th>名前</th>
+            <td>Yusuke Kudo</td>
+          </tr>
+          <tr>
+            <th>経歴</th>
+            <td>
+              前職はネット広告代理店にて、ネット広告の配信設定業務を4年程対応しておりました。<br>
+              現在は職業訓練校にて、HTML、CSS、JavaScript、PHPなどのプログラミング言語や、情報セキュリティの勉強を行っております。 
+            </td>
+          </tr>
+          <tr>
+            <th>保有資格</th>
+            <td>
+              基本情報技術者試験<br>
+              情報セキュリティマネジメント試験<br>
+              Webクリエイター能力認定試験 エキスパート
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <!-- End About Us Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon">
+              <i class="fa-brands fa-html5"></i>
             </div>
-        </section>
-        <section>
-            <h2>Works</h2>
-            <div class="worksBox">
-                <!-- worksの箱ここから -->
-                <div class="worksItem">
-                    <div class="worksItemDl">
-                        <dl>
-                            <dt>オセロ（6×6マス）</dt>
-                            <dd>【使用言語】</dd>
-                            <dd>HTML5、SCSS、JavaScript、Canvas</dd>
-                        </dl>
-                        <ul class="workslinkbox">
-                            <li><a href="https://github.com/oribe8/othello" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                            <li><a href="othello" target="_blank" rel="noopener noreferrer">デモサイト</a></li>
-                        </ul>
-                    </div>
-                    <div class="worksItemImg">
-                        <img src="images/othello_thumb.png" alt="オセロの画像">
-                    </div>
-                </div>
-                <!-- worksの箱ここまで -->
-                <!-- worksの箱ここから -->
-                <div class="worksItem">
-                    <div class="worksItemDl">
-                        <dl>
-                            <dt>掲示板</dt>
-                            <dd>【使用言語】</dd>
-                            <dd>HTML5、SCSS、PHP</dd>
-                        </dl>
-                        <ul class="workslinkbox">
-                            <li><a href="https://github.com/oribe8/bulletin_board" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                            <!-- <li><a href="#" target="_blank" rel="noopener noreferrer">デモサイト</a></li> -->
-                        </ul>
-                    </div>
-                    <div class="worksItemImg">
-                        <img src="images/keijiban_thumb.png" alt="掲示板の画像">
-                    </div>
-                </div>
-                <!-- worksの箱ここまで -->
+            <h4 class="title">HTML5</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon">
+              <i class="fa-brands fa-css3-alt"></i>
             </div>
-        </section>
-    </main>
-    <footer class="wrapper">
-        <small>&copy;2024 Yskd Blog</small>
-    </footer>
+            <h4 class="title">CSS3</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <h4 class="title">JavaScript</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon">
+              <i class="fa-brands fa-php"></i>
+            </div>
+            <h4 class="title">PHP</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon">
+              <i class="fa-brands fa-sass"></i>
+            </div>
+            <h4 class="title">SCSS</h4>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon">
+              <i class="fa-brands fa-wordpress"></i>
+            </div>
+            <h4 class="title">WordPress</h4>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- ======= Our Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/othello_thumb.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3>オセロ（6×6マス）</h3>
+                <div>
+                  <a href="othello-details.html">詳細</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/keijiban_thumb.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3>掲示板</h3>
+                <div>
+                  <a href="keijiban-details.html">詳細</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Our Portfolio Section -->
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Yskd Blog</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End #footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
