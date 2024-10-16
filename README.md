@@ -1,7 +1,7 @@
 # ポートフォリオまとめサイト
 
 ## 詳細
-これまで作ったポートフォリオをまとめるために作ったサイトです。  
+これまで作ったポートフォリオをまとめるためのサイトです。  
 下記テンプレートを使用し作成しました。  
 https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
 
